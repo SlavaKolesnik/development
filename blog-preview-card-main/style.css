@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .shadow-custom {
+        /* I generated these styles on the site https://www.cssmatic.com/box-shadow */
+        -webkit-box-shadow: 8px 8px 0px 0px rgba(0, 0, 0, 1);
+        -moz-box-shadow: 8px 8px 0px 0px rgba(0, 0, 0, 1);
+        box-shadow: 8px 8px 0px 0px rgba(0, 0, 0, 1);
+    }
+}
+
+@font-face {
+    font-family: 'Figtree';
+    src: url('/assets/fonts/static/Figtree-Italic-VariableFont_wght.ttf')
+        format('truetype');
+    font-weight: 100 900;
+    font-style: italic;
+}
+
+.font-figtree {
+    font-family: 'Figtree', sans-serif;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
